@@ -46,26 +46,27 @@
                 "^"
             ]
         },
-        // delete without copying
+        // put from non-volatile register
         {
             "before": [
                 "<leader>",
-                "d"
+                "p"
             ],
             "after": [
                 "\"",
-                "_",
-                "d"
+                "0",
+                "p"
             ]
         },
         {
             "before": [
-                "x"
+                "<leader>",
+                "P"
             ],
             "after": [
                 "\"",
-                "_",
-                "x"
+                "0",
+                "P"
             ]
         }
     ],
@@ -86,4 +87,6 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "cmake.configureOnOpen": true,
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylintEnabled": false
 }
