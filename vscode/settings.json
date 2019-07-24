@@ -5,7 +5,6 @@
     "editor.detectIndentation": true,
     "editor.formatOnSave": true,
     "window.zoomLevel": 0,
-    "editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
     "editor.fontFamily": "'Fira Code'",
     "editor.fontLigatures": true,
@@ -88,5 +87,7 @@
     "explorer.confirmDelete": false,
     "cmake.configureOnOpen": true,
     "python.linting.pylamaEnabled": true,
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
 }
