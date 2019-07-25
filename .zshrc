@@ -20,6 +20,8 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_first_and_last"
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_VCS_SHORTEN_STRATEGY="truncate_from_right"
+POWERLEVEL9K_VCS_SHORTEN_LENGTH=20
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
 	time
@@ -52,6 +54,9 @@ POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND="black"
 POWERLEVEL9K_TIME_BACKGROUND="black"
 POWERLEVEL9K_TIME_FOREGROUND="blue"
 POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
+
+# disable stash indicator because it messes with my fonts
+POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-aheadbehind git-remotebranch git-tagname)
 
 # Update zsh with pacman instead
 DISABLE_AUTO_UPDATE="true"
