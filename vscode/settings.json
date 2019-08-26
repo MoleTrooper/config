@@ -90,4 +90,5 @@
     "python.linting.pylintEnabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
+    "python.linting.enabled": false,
 }
