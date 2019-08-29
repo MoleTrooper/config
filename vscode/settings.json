@@ -91,4 +91,5 @@
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
     "python.linting.enabled": false,
+    "debug.allowBreakpointsEverywhere": true,
 }
