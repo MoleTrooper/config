@@ -15,49 +15,6 @@ fi
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME=""
 
-# Fix line wrapping on robbyrussell theme
-# export PROMPT="%{${ret_status}%} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)"
-
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_first_and_last"
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
-POWERLEVEL9K_VCS_SHORTEN_STRATEGY="truncate_from_right"
-POWERLEVEL9K_VCS_SHORTEN_LENGTH=20
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
-	time
-	background_jobs
-	context
-	dir
-	dir_writable_joined
-	vcs
-	command_execution_time
-	status
-	newline
-	custom_prompt_arrow
-)
-POWERLEVEL9K_CUSTOM_PROMPT_ARROW="echo ' '"
-POWERLEVEL9K_CUSTOM_PROMPT_ARROW_BACKGROUND="black"
-POWERLEVEL9K_CUSTOM_PROMPT_ARROW_FOREGROUND="green"
-
-POWERLEVEL9K_DISABLE_RPROMPT=true
-
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD=0
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND="black"
-POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND="green"
-POWERLEVEL9K_EXECUTION_TIME_ICON=
-# Status code displays just the number
-POWERLEVEL9K_CARRIAGE_RETURN_ICON=
-
-POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_BACKGROUND="blue"
-POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND="black"
-
-POWERLEVEL9K_TIME_BACKGROUND="black"
-POWERLEVEL9K_TIME_FOREGROUND="blue"
-POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
-
-# disable stash indicator because it messes with my fonts
-POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-aheadbehind git-remotebranch git-tagname)
-
 # Update zsh with pacman instead
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
@@ -100,6 +57,6 @@ bindkey -s "^[Om" "-"
 bindkey -s "^[Oj" "*"
 bindkey -s "^[Oo" "/"
 
-
+# Starship prompt
 eval "$(starship init zsh)"
 
