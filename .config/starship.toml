@@ -30,8 +30,8 @@ show_sync_count = true
 modified = "*"
 
 [nix_shell]
-impure_msg = "nix-shell"
-pure_msg = "nix-shell (pure)"
+impure_msg = "λ"
+pure_msg = "λλ"
 
 [rust]
 disabled = true
