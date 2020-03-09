@@ -1,6 +1,6 @@
 {
     // visuals
-    "workbench.colorTheme": "Rouge No Italics",
+    "workbench.colorTheme": "BeardedTheme Vivid",
     "workbench.iconTheme": "material-icon-theme",
     "editor.detectIndentation": true,
     "editor.formatOnSave": true,
