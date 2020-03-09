@@ -42,6 +42,7 @@ end
 
 # === Starship prompt === #
 eval (starship init fish)
+eval (direnv hook fish)
 
 # === On login autostart === #
 # This varies per computer so we don't define it here
