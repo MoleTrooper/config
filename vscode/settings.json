@@ -76,8 +76,20 @@
         "<C-q>": false,
         "<C-z>": false,
         "<C-y>": false,
-        "<C-b>": false
+        "<C-b>": false,
     },
+    // gitlens
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    // rust
+    "rust-analyzer.cargo-watch.enable": true,
+    "rust-analyzer.highlightingOn": true,
+    "rust-analyzer.rainbowHighlightingOn": true,
+    "rust-analyzer.displayInlayHints": false,
+    // python
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
     // other
     "git.confirmSync": false,
     "git.ignoreLegacyWarning": true,
@@ -85,11 +97,7 @@
     "terminal.external.linuxExec": "terminator",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "cmake.configureOnOpen": true,
-    "python.linting.pylamaEnabled": true,
-    "python.linting.pylintEnabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
-    "python.linting.enabled": false,
     "debug.allowBreakpointsEverywhere": true,
 }
